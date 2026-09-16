@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__unreal-mcp__describe_toolset",
+      "mcp__unreal-mcp__call_tool",
+      "PowerShell($content = Get-Content -Raw 'C:\\\\Users\\\\ADMIN\\\\.claude\\\\projects\\\\C--Users-ADMIN-Documents-Unreal-Projects-testProject\\\\7c426570-0ed0-419a-b306-70140ece90ae\\\\tool-results\\\\mcp-unreal-mcp-call_tool-1789460234722.txt'; $idxs = [System.Text.RegularExpressions.Regex]::Matches\\($content,'GameMode'\\) | ForEach-Object {$_.Index}; foreach \\($i in $idxs\\) { $start=[Math]::Max\\(0,$i-60\\); $len=[Math]::Min\\(150,$content.Length-$start\\); $content.Substring\\($start,$len\\); \"---\" })"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "unreal-mcp"
+  ]
+}
